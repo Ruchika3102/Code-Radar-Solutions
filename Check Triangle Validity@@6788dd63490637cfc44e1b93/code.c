@@ -2,7 +2,7 @@
 int main() {
     int x,y,z;
     scanf("%d%d%d",&x,&y,&z);
-    if(a+b>c||a+c>b||b+c>a){
+    if(x+y>z||x+z>y||y+z>x){
         printf("Valid");
     }
     else{
