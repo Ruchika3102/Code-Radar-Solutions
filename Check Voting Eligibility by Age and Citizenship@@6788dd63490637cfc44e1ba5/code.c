@@ -3,8 +3,8 @@
 int main() {
     int x;
     bool y;
-    scanf("%d",x);
-    scanf("%d",y);
+    scanf("%d",&x);
+    scanf("%d",&y);
     if(x>=18&&y==1){
         printf("Eligible");
     }
