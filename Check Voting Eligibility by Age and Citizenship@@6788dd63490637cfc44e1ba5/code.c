@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int x;
-    bool y;
+    int y;
     scanf("%d",&x);
     scanf("%d",&y);
     if(x>=18&&y==1){
