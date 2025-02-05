@@ -23,7 +23,7 @@ int main() {
                 result = num1 / num2;
                 printf("%d", result);
             } else {
-                printf("Error");
+                printf("error");
             }
             break;
         default:
