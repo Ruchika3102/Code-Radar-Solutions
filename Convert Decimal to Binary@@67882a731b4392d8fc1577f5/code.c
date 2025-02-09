@@ -7,6 +7,5 @@ int main() {
     int n;
     scanf("%d", &n);
     decimalToBinary(n);
-    printf("\n");
     return 0;
 }
