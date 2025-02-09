@@ -1,12 +1,12 @@
 #include <stdio.h>
-
+void decimalToBinary(int n) {
+    if (n > 1) decimalToBinary(n / 2);
+    printf("%d", n % 2);
+}
 int main() {
     int n;
     scanf("%d", &n);
-    for (int i = 31; i >= 0; i--) {
-        printf("%d", (n >> i) & 1);
-    }
+    decimalToBinary(n);
     printf("\n");
     return 0;
 }
-
