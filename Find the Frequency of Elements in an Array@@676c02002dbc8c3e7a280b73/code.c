@@ -27,3 +27,4 @@ for(int i=0;i<n;i++)
     printf("%d %d\n",arr[i],c);
 
 }
+}
